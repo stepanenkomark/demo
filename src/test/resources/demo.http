@@ -1,0 +1,55 @@
+GET http://localhost:8080/userinfo/3
+
+###
+GET http://localhost:8080/levelinfo/2
+Accept: application/json
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":1,"level_id":1,"result":23}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":2,"level_id":1,"result":20}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":3,"level_id":1,"result":26}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":1,"level_id":1,"result":28}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":2,"level_id":1,"result":28}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":3,"level_id":2,"result":11}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":2,"level_id":2,"result":17}
+
+###
+PUT http://localhost:8080/setinfo
+Content-Type: application/json
+
+{"user_id":1,"level_id":2,"result":17}
+
+###
